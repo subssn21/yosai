@@ -18,6 +18,7 @@ services:
 install:
   - python setup.py develop
   - pip install pytest-catchlog
+  - pip install pytest-cov
   - pip install yosai_alchemystore
   - pip install yosai_dpcache
 # command to run tests
