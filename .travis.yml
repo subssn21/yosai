@@ -1,7 +1,6 @@
 language: python
 sudo: false
 python:
-  - "3.3"
   - "3.4"
   - "3.5"
 
@@ -17,8 +16,8 @@ services:
 # command to install dependencies
 install:
   - python setup.py develop
-  - pip install --user pytest-catchlog
-  - pip install --user yosai_alchemystore
-  - pip install --user yosai_dpcache
+  - pip install pytest-catchlog
+  - pip install yosai_alchemystore
+  - pip install yosai_dpcache
 # command to run tests
 script: py.test

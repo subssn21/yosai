@@ -20,3 +20,5 @@ SESSION_CONFIG:
     session_validation:
         scheduler_enabled: false
         time_interval: 3600
+
+LOG_DIRECTORY: /var/log/yosai/
