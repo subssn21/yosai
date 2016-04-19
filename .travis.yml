@@ -17,8 +17,8 @@ services:
 # command to install dependencies
 install:
   - python setup.py develop
-  - pip install pytest-catchlog
-  - pip install yosai_alchemystore
-  - pip install yosai_dpcache
+  - pip install --user pytest-catchlog
+  - pip install --user yosai_alchemystore
+  - pip install --user yosai_dpcache
 # command to run tests
 script: py.test
