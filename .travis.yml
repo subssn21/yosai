@@ -9,6 +9,7 @@ env:
     - YOSAI_ALCHEMYSTORE_SETTINGS=$TRAVIS_BUILD_DIR/yosai/accountstore_settings.yaml
     - YOSAI_CACHE_SETTINGS=$TRAVIS_BUILD_DIR/yosai/cache_settings.yaml
     - YOSAI_CORE_SETTINGS=$TRAVIS_BUILD_DIR/yosai_settings.yaml
+    - YOSAI_LOG_DIRECTORY=$TRAVIS_BUILD_DIR
 
 services:
   - redis-server
