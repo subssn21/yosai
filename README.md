@@ -36,6 +36,11 @@ and writing adapters for each specific type of client.
 - Event-driven Processing
 - Ready for Web Integration
 
+## Python 3 Supported
+
+Yosai v0.1.0 requires py3.3 or newer. There are no plans to support python2 
+due to anticipated optimizations that require newer versions of python.
+
 
 ## Installation
 
